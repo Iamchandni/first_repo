@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery Website</title>
+    
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        
+      }
+      body{
+        /*background-image: url('imgs/italian-cuisine-2378729_1920.jpg');*/
+        opacity: 340px;
+        background-color: rgba(236, 226, 212, 0.555);
+      
+      }
+      .navbar {
+        border: 2px solid rgb(243, 201, 201);
+
+        width: 50rem;
+        border-radius: 13px;
+        background-color: rgba(102, 99, 95, 0.192);
+      }
+      .navbar ul {
+        display: flex;
+        justify-content: space-around;
+      }
+      .navbar img {
+        width: 80rem;
+        height: 50rem;
+        position: absolute;
+        top: 0px;
+        z-index: -1;
+      }
+      .navbar li {
+        text-decoration: none;
+        list-style: none;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+         font-weight: bold;
+      }
+      .navbar ul li a {
+        display: block;
+        color: aliceblue;
+        text-decoration: none;
+      }
+      .btn {
+        position: absolute;
+        right: 6rem;
+        top: 1rem;
+        padding: 1em;
+        width: 10em;
+        border-radius: 13px;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         font-weight: bold;
+        background-color: rgba(151, 165, 165, 0.432);
+        size: 1rem;
+        color: aliceblue;
+      }
+      .btn:hover {
+        background-color: rgb(114, 128, 128);
+        cursor: pointer;
+      }
+      .navbar li a:hover {
+        background-color: rgb(82, 92, 100);
+      }
+      .para {
+        text-align: center;
+        color: rgb(227, 240, 235);
+      }
+      .decor{
+          position: absolute;
+          top:54rem;
+          display: flex;
+      }
+      .box{
+          /* border:2px solid black;*/
+           margin:5px;
+           width:318px;
+           height:30em;
+           padding:43px;
+           border-radius:13px;
+           text-align: center;
+           background-color: bisque;
+           box-shadow: 2px grey;
+      }
+      .box img{
+          width:9rem;
+          height:5rem;
+          display: block;
+          margin:4px auto;
+          
+      }
+     #al{
+         display: block;
+         position: absolute;
+         top:50rem;
+         text-align: center;
+         left:31rem;
+         font-family: "sans-serif ";
+         
+     }
+     .btn1{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+         font-weight: bold;
+        background-color: rgba(163, 97, 161, 0.432);
+        size: 1rem;
+        color: rgb(248, 248, 245);
+        padding: 1em;
+        width: 10em;
+        border-radius: 2em;
+     }
+     .btn1:hover{
+       background-color: rgba(173, 185, 185, 0.925);
+       cursor: pointer;
+       color: brown;
+     }
+     .services{
+       position: absolute;
+       top:90rem;
+       display: flex;
+     }
+     #all
+     { 
+       position:relative;
+       display: block;
+       left:27rem;
+       
+     }
+  /*   .box2{
+       position:absolute;
+       top:5rem;
+       border:2px solid black;
+       margin:5px;
+       display: flex;
+       align-self: center;
+           width:1000px;
+           height:30em;
+           padding:43px;
+           border-radius:13px;
+           text-align: center;
+           background-color: bisque;
+     }*/
+     
+     #imgage{     
+        position: absolute;
+       display: inline-block;
+       width:12rem;
+       height:12rem;
+       left:0px;
+       top:4rem;
+     }
+     #heading{
+       display:block;
+       position: absolute;
+       top:7rem;
+       left:15rem;
+     }
+     #para{
+       display: block;
+       position:absolute;
+       top:10rem;
+       width:40rem;
+     }
+     #i{
+      position: absolute;
+       display: inline-block;
+       width:12rem;
+       height:12rem;
+       left:0px;
+       top:25rem;
+     }
+     #heading2{
+       position: absolute;
+       top:25rem;
+       left:15rem;
+     }
+     #para2{
+       position:absolute;
+       top:28rem;
+       width:40rem;
+     }
+     p,h1,h3{
+       font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     #footer{
+       position: absolute;
+       align-items: flex-end;
+       top:130rem;
+       display:inline;
+       background-color: rgb(223, 173, 141);
+       width:100vw;
+       color:rgb(223, 173, 141);
+     }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Menu</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <img src="imgs/italian-cuisine-2378729_1920.jpg" />
+      </div>
+      <button class="btn">RATE US</button>
+    </div>
+    <div class="para">
+      <h1>WELCOME TO OUR ONLINE FOOD DELIVERY WEBSITE</h1>
+      <h4>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum dicta
+        nihil ex necessitatibus temporibus tenetur velit qui, repellendus
+        voluptatem.
+      </h4>
+      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error fugit doloremque consequatur 
+          sunt odit! Dicta illo harum, deserunt maiores cumque amet?</h4>
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, animi sint officia ipsa 
+              natus quos corrupti sed vitae aspernatur quisquam atque voluptas, itaque dolor.</h4>
+    </div>
+   
+   <section >
+    <h1 id="al">EXPLORE MORE HERE!!</h1>
+    <div class="decor">
+       <div class="box">
+           <img src="imgs/hamburger-494706_1920.jpg">
+           <h1>HAMBURGER</h1>
+           <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ad iusto cupiditate maiores
+            consequuntur alias delectus perferendis minima reiciendis incidunt voluptatibus saepe quis itaque,
+             illo dicta ea asperiores nostrum voluptatem. Voluptatibus neque at voluptates illo, nisi, sunt 
+             animi rem, eligendi labore vero fuga veniam deserunt. Deleniti dolores optio sed ipsum natus eaque
+            quibusdam blanditiis enim labore doloremque non reprehenderit dolorem provident fugiat,
+             tempore porro!</p>
+           <button class="btn1">ORDER NOW</button>
+       </div>
+       <div class="box">
+         <img src="imgs/pizza-6478478_1920.jpg">
+         <h1>PIZZA</h1>
+         <h3>Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ad iusto cupiditate maiores
+            consequuntur alias delectus perferendis minima reiciendis incidunt voluptatibus saepe quis itaque,
+             illo dicta ea asperiores nostrum voluptatem. Voluptatibus neque at voluptates illo, nisi, sunt 
+             animi rem, eligendi labore vero fuga veniam deserunt. Deleniti dolores optio sed ipsum natus eaque
+            quibusdam blanditiis enim labore doloremque non reprehenderit dolorem provident fugiat,
+             tempore porro!</p>
+         <button class="btn1">ORDER NOW</button>
+       </div>
+       <div class="box">
+         <img src="imgs/pancakes-2291908_1920.jpg">
+         <h1>PANCAKES</h1>
+         <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ad iusto cupiditate maiores
+          consequuntur alias delectus perferendis minima reiciendis incidunt voluptatibus saepe quis itaque,
+           illo dicta ea asperiores nostrum voluptatem. Voluptatibus neque at voluptates illo, nisi, sunt 
+           animi rem, eligendi labore vero fuga veniam deserunt. Deleniti dolores optio sed ipsum natus eaque
+          quibusdam blanditiis enim labore doloremque non reprehenderit dolorem provident fugiat,
+           tempore porro!</p>
+         <button class="btn1">ORDER NOW</button>
+       </div>
+ </section>
+ <section class="services">
+     <h1 id="all">VARIOUS SERVICES OFFERED BY US</h1>
+     <div class="options">
+      <img id="imgage" src="imgs/restaurant-305203_1280.png">
+      <h1 id="heading">Catering Services</h1>
+      <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores modi beatae perferendis alias
+        qui dolorum saepe architecto accusamus similique eaque? Quod odio recusandae necessitatibus. Quibusdam 
+        ea vitae laboriosam aliquam praesentium totam quos omnis cumque quod doloribus! Dolorem eaque fugit
+         quos ad sequi quia iure nesciunt modi, ipsum explicabo ratione, saepe doloremque nulla. Ratione, ex.</p>
+     </div>
+     <div class="options">
+       <img id="i"src="imgs/birthday-cake-1674879_1280.png">
+       <h1 id="heading2">Birthday Hosting</h1>
+       <p id="para2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, sequi aliquid
+          porro doloribus fuga assumenda atque adipisci id asperiores dicta necessitatibus. Maiores fuga 
+          ab est laudantium accusantium quas explicabo commodi, nihil aliquid dicta nostrum ad doloribus
+           culpa nemo repellat distinctio esse adipisci, doloresautem dignissimos? Quidem sequi 
+           dolorem dignissimos ipsam numquam! Architecto, quibusdam adipisci?</p>
+       </div>
+ </section>
+<div class="container"> 
+  <footer id="footer">end</footer></div>
+
+
+  </body>
+</html>
